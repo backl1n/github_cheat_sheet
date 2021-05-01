@@ -1,0 +1,28 @@
+creer le repos coté web 
+
+git init  ==> initialisation du repos sur le pc 
+
+git remote add nom_choisie(origin) URL(https depot git )
+
+
+--------------------------------------------------
+ajouter des fichier et les push 
+
+git add chemin du fichier / chemin du dossier pour upload les fichiers 
+
+git commit -m "message"      sert a mettre a message et modifier coté distant
+
+git push nom de URL(origin) nom de la branche(master)
+
+
+
+-------------------------------------------------------
+pour synchroniser un projet sur un autre pc 
+
+git clone url du depot 
+
+si modification sur un autre pc qui a ete push sur le repot distant
+
+git pull ==> a executer sur le pc pas synchroniser
+
+
