@@ -1,18 +1,18 @@
 creer le repos coté web 
 
-git init  ==> initialisation du repos sur le pc 
+git init                                                                  ==> initialisation du repos sur le pc 
 
-git remote add nom_choisie(origin) URL(https depot git )
+git remote bashy -m  originURL https://github.com/backl1n/bashy
 
 
 --------------------------------------------------
 ajouter des fichier et les push 
 
-git add chemin du fichier / chemin du dossier pour upload les fichiers 
+git add bashy.sh                                                chemin du dossier pour upload les fichiers 
 
-git commit -m "message"      sert a mettre a message et modifier coté distant
+git commit -m "message"                                                     sert a mettre a message et modifier coté distant
 
-git push nom de URL(origin) nom de la branche(master)
+git push origin master
 
 
 
